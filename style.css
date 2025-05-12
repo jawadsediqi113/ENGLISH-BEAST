@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+#loading-screen {
+    display: block;
+    font-size: 24px;
+    color: #34495e;
+}
+
+.loader {
+    margin-top: 20px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#quiz-screen {
+    display: block;
+}
